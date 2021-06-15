@@ -1,0 +1,13 @@
+nltk==3.6.2
+tensorflow==2.5.0
+numpy==1.19.5
+pyfpgrowth==1.0
+matplotlib==3.4.2
+pandas==1.2.4
+pydotplus==2.0.2
+neo4j_driver==4.3.0
+networkx==2.5.1
+hmmlearn==0.2.5
+joblib==1.0.1
+JPype1
+scikit_learn==0.24.2

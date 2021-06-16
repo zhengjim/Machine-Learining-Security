@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn import metrics
 
 
-def show_kmeans():
+def show_dbscan():
     # 生成测试样本
     centers = [[1, 1], [-1, -1], [1, -1]]
     x, y = make_blobs(n_samples=750, centers=centers, cluster_std=0.4, random_state=0)
@@ -49,4 +49,4 @@ def show_kmeans():
 
 
 if __name__ == '__main__':
-    show_kmeans()
+    show_dbscan()

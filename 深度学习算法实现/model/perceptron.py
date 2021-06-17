@@ -31,9 +31,9 @@ class Perceptron(object):
         :param rate: 学习速率
         """
         for i in range(iteration_num):
-            self._one_tarin(x, y, rate)
+            self.__one_tarin(x, y, rate)
 
-    def _one_tarin(self, x, y, rate):
+    def __one_tarin(self, x, y, rate):
         """训练所有的数据(一次)
 
         :param x: 输入训练数据，一组向量

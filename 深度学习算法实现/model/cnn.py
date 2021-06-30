@@ -1,4 +1,5 @@
 import numpy as np
+from model import element_wise_op
 
 
 def padding(input_array, zp):
@@ -88,19 +89,6 @@ def get_max_index(array):
                 max_value = array[i, j]
                 max_i, max_j = i, j
     return max_i, max_j
-
-
-def element_wise_op(array, op):
-    """对numpy数组进行element wise操作(按元素操作)
-
-    :param array: np.array数组
-    :param op: 激活函数
-
-    :return:
-    """
-
-    for i in np.nditer(array, op_flags=['readwrite']):  # 修改数组值 readwrite
-        i[...] = op(i)
 
 
 class ConvLayer(object):

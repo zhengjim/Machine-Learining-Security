@@ -1,4 +1,5 @@
 import numpy as np
+from model import SigmoidActivator
 
 
 class FullConnectedLayer(object):
@@ -52,18 +53,6 @@ class FullConnectedLayer(object):
         """
         self.W += rate * self.W_grad
         self.b += rate * self.b_grad
-
-
-class SigmoidActivator(object):
-    """ Sigmoid激活函数类 """
-
-    def forward(self, weighted_input):
-        """ sigmoid函数"""
-        return 1.0 / (1.0 + np.exp(-weighted_input))
-
-    def backward(self, output):
-        """ sigmoid导数 """
-        return output * (1 - output)
 
 
 class Network(object):

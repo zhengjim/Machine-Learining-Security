@@ -29,3 +29,16 @@ class SigmoidActivator(object):
     def backward(self, output):
         """ sigmoid导数 """
         return output * (1 - output)
+
+
+def element_wise_op(array, op):
+    """对numpy数组进行element wise操作(按元素操作)
+
+    :param array: np.array数组
+    :param op: 激活函数
+
+    :return:
+    """
+
+    for i in np.nditer(array, op_flags=['readwrite']):  # 修改数组值 readwrite
+        i[...] = op(i)

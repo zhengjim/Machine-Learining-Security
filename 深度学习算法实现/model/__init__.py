@@ -31,6 +31,18 @@ class SigmoidActivator(object):
         return output * (1 - output)
 
 
+class TanhActivator(object):
+    """ Tanh激活函数类 """
+
+    def forward(self, weighted_input):
+        """ Tanh激活函数类 """
+        return 2.0 / (1.0 + np.exp(-2 * weighted_input)) - 1.0
+
+    def backward(self, output):
+        """ Tanh导数 """
+        return 1 - output * output
+
+
 def element_wise_op(array, op):
     """对numpy数组进行element wise操作(按元素操作)
 

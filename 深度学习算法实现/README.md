@@ -36,3 +36,8 @@
 
 - [实现算法代码](model/lstm.py)
 - [循环神经网络-demo](lstm_demo.py)
+
+## 递归神经网络
+
+- [实现算法代码](model/recursive.py)
+- [递归神经网络-demo](recursive_demo.py)

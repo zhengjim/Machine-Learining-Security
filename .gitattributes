@@ -1,1 +1,4 @@
 *.php linguist-language=python
+Web安全之深度学习实战/data/review/aclImdb_v1.tar.gz filter=lfs diff=lfs merge=lfs -text
+Web安全之深度学习实战/data/17flowers/17flowers.tgz filter=lfs diff=lfs merge=lfs -text
+Web安全之深度学习实战/data/17flowers/17flowers.pkl filter=lfs diff=lfs merge=lfs -text
